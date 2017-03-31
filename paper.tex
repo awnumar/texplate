@@ -1,0 +1,53 @@
+% Set document type.
+\documentclass{article}
+
+% Import packages.
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[autostyle]{csquotes}
+
+\usepackage[sorting=none]{biblatex}
+\bibliography{references.bib}
+
+% Hide hyperlinks.
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+% Set global variables.
+\title{How can titles be real if our papers aren't?}
+\author{Awn Umar}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\begin{abstract}
+This paper is just bare fresh fr.\\
+\end{abstract}
+
+\section{Introduction}
+
+Yeah boiiis\cite{the-risks-of-key-recovery-key-escrow-and-trusted-third-party-encryption}.
+
+\section{Some Other Section}
+
+\subsection{Some Subsection}
+
+\subsubsection{Jeez}
+
+No idea\cite{protocol-failure-in-the-escrowed-encryption-standard}.
+
+\printbibliography[
+heading=bibintoc,
+title={References}
+]
+
+\end{document}
