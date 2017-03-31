@@ -1,2 +1,2 @@
 # texplate
-A standard LaTeX template.
+A standard LaTeX template for academic papers.
